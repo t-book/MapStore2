@@ -1,0 +1,54 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - react-color > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - react-dnd > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - react-quill > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - recharts > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - redux > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - react-color > reactcss > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - redux-undo > redux > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - react-dnd-test-backend > dnd-core > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - recharts > react-smooth > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - react-dnd-test-backend > dnd-core > redux > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T03:51:35.002Z'
