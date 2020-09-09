@@ -11,7 +11,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <tomcat.version>7.0.75</tomcat.version>
+    <tomcat.version>7.0.105</tomcat.version>
     <release.number>${project.version}</release.number>
   </properties>
   <dependencies>
@@ -113,11 +113,11 @@
             <phase>package</phase>
             <configuration>
               <tasks>
-                <echo message="Downloading JRE..." />
-                <get src="https://demo.geo-solutions.it/mapstore/jre.tar.gz" dest="${project.build.directory}/jre.tar.gz" />
-                <echo message="Untar JRE..." />
-                <gunzip src="${project.build.directory}/jre.tar.gz" dest="${project.build.directory}/jre.tar" />
-                <untar src="${project.build.directory}/jre.tar" dest="${project.build.directory}/jre" />
+                <echo message="Downloading JRE..."/>
+                <get src="https://demo.geo-solutions.it/mapstore/jre.tar.gz" dest="${project.build.directory}/jre.tar.gz"/>
+                <echo message="Untar JRE..."/>
+                <gunzip src="${project.build.directory}/jre.tar.gz" dest="${project.build.directory}/jre.tar"/>
+                <untar src="${project.build.directory}/jre.tar" dest="${project.build.directory}/jre"/>
               </tasks>
             </configuration>
             <goals>
