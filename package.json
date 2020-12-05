@@ -159,7 +159,7 @@
     "qrcode.react": "0.9.3",
     "react": "16.10.1",
     "react-addons-css-transition-group": "15.6.2",
-    "react-addons-shallow-compare": "15.6.2",
+    "react-addons-shallow-compare": "15.6.3",
     "react-bootstrap": "0.31.0",
     "react-codemirror2": "4.0.0",
     "react-color": "2.17.0",
