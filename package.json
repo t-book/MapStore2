@@ -83,7 +83,7 @@
   "dependencies": {
     "@boundlessgeo/jsonix": "2.4.3",
     "@carnesen/redux-add-action-listener-enhancer": "0.0.1",
-    "@mapbox/geojsonhint": "2.0.1",
+    "@mapbox/geojsonhint": "2.2.0",
     "@mapbox/togeojson": "0.16.0",
     "@turf/bbox": "4.1.0",
     "@turf/bbox-polygon": "5.1.5",
@@ -147,7 +147,7 @@
     "leaflet.nontiledlayer": "1.0.7",
     "lodash": "4.17.15",
     "lrucache": "1.0.3",
-    "moment": "2.21.0",
+    "moment": "2.29.4",
     "node-geo-distance": "1.2.0",
     "object-assign": "4.1.1",
     "object-fit-images": "3.2.4",
