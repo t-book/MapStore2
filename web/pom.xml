@@ -86,7 +86,7 @@
     <dependency>
       <groupId>com.lowagie</groupId>
       <artifactId>itext</artifactId>
-      <version>2.1.5</version>
+      <version>4.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.json</groupId>
@@ -423,7 +423,7 @@
                 <plugin>
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>2.6</version>
-                    <executions></executions>
+                    <executions/>
                 </plugin>
             </plugins>
         </build>
