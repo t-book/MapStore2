@@ -83,7 +83,7 @@
   "dependencies": {
     "@boundlessgeo/jsonix": "2.4.3",
     "@carnesen/redux-add-action-listener-enhancer": "0.0.1",
-    "@mapbox/geojsonhint": "2.0.1",
+    "@mapbox/geojsonhint": "2.1.0",
     "@mapbox/togeojson": "0.16.0",
     "@turf/bbox": "4.1.0",
     "@turf/bbox-polygon": "5.1.5",
